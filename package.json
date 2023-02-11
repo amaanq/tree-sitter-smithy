@@ -1,7 +1,7 @@
 {
   "name": "tree-sitter-smithy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Smithy grammar for tree-sitter",
   "main": "bindings/node",
   "keywords": [
     "parser",
@@ -21,7 +21,7 @@
     "eslint-config-google": "^0.14.0",
     "tree-sitter-cli": "^0.20.6"
   },
-  "repository": "https://github.com/indoorvivants/tree-sitter-smithy/issues",
+  "repository": "https://github.com/indoorvivants/tree-sitter-smithy",
   "scripts": {
     "build": "tree-sitter generate && node-gyp build",
     "test": "tree-sitter test && script/parse-examples",
